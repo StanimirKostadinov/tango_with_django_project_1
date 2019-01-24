@@ -23,5 +23,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.index, name='index'),
     url(r'^rango/', include('rango.urls')),
-	url(r'^django_app/', include('rango.urls')),
+	url(r'^django_app/', include('django_app.urls')),
 	]
